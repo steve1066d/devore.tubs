@@ -50,4 +50,7 @@ Upgrading existing Softub boards would generally be done by a electronics profes
 
 [Wi-Fi integration](wifi.md)
 
+### Purchasing
+Coming soon
+
 
