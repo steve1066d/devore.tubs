@@ -1,4 +1,4 @@
-# Steve Devore's Softub imporoved firmware
+# Steve Devore's Softub improved firmware
 
 This project addresses many of the problems and limitations of the existing Softub control board functionality. It does this by replacing the microcontroller
 on the chip with another one.  You can either upgrade your existing controller board or get a refurbished board with this new program.
