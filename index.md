@@ -8,10 +8,11 @@ Note, this is not affiliated with Softub Spas.
 - Can be added to any board (C-2001, C-2003, C-2006, and C-2013), giving new
 functionally to older boards.
 
+- It is a drop in replacement for existing boards.  There are no other changes needed.
+
 - All existing functionality of the C-2013 board is provided, with over-temp 
 protection, IPS and P01 errors, special temp mode, and economy and overnight
 modes. The safety of the original design is kept.
-
 - It will keep the set temperature if power is lost, so you can put the tub on a 
 timer.
 
