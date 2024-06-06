@@ -72,23 +72,27 @@ use Fahrenheit, disable P and disable IPS, you would enter 11 (1 + 2 + 8).
 Note that generally the flags disable something, so you would set it to "1" to 
 disable the feature.
 
-1 = Use Fahrenheit.  If this is not set it will display the temperature in
+1 = Use Fahrenheit:
+If this is not set it will display the temperature in
 Celsius. The default is the setting of JP2 on the board.  If the pads are 
 jumpered the default is Celsius. If you change this flag, it will replace the 
 maximum, minimum and default temps to default values.
 
-2 = Disable P.  Normally the controller will use the stock rules of displaying P 
+2 = Disable P:
+Normally the controller will use the stock rules of displaying P 
 when the pump is off or just started.  If this flag is set, it will instead show
 the temperature of the probe in the HydroMate. With the pump not running it
 won't be as accurate as when the pump is running, but will still give an 
 indication of the tub temperature.
 
-4 = Disable Ozone.  Softub has an optional ozone generator that is run 
+4 = Disable Ozone:
+Softub has an optional ozone generator that is run 
 periodically to limit the chemical use.  However, they tend to fail, and 
 generally are not replaced. If you are not using or do not wish to use the 
 ozone generator, set this flag.
 
-8 = Disable IPS.  The board monitors the voltage is sufficient to not 
+8 = Disable IPS:
+The board monitors the voltage is sufficient to not 
 cause damage to the pump. It fires if the voltage drops to 96.5 volts on a 120v
 system (or probably around 177 v on a 220 circuit).  To disable this test, set 
 this flag. However, if there is insufficient power for the microcontroller, 
@@ -118,31 +122,32 @@ The controller will normally save the selected temperature and the mode the
 tub is running in so it will keep that setting if power is lost.  If you rather
 it instead always return to the saved defaults, set this flag.
 
-2 = Disable service menu.  This could be useful if you have the settings you want 
+2 = Disable service menu:
+This could be useful if you have the settings you want 
 and you don't want anyone to muck with them.  If this is disabled, holding the 
 four buttons simply causes the controller to restart. However, if you set this
 flag, it means that you won't be able to change any of these PP settings without 
 opening up the HydroMate. Temporarily adding a jumper across JP3 on the board on 
 startup will reset the configuration to the default and reenable this menu.
 
-4 = Disable wait for service menu.
+4 = Disable wait for service menu:
 If this is enabled, then pressing the 4 buttons will immediately bring up the
 service menu instead of requiring a 4 second hold.
 
-8 = Disable Decimal
+8 = Disable Decimal:
 If this is enabled, then the board will not try to send out a decimal point.
-Decimal points are only used for Celsius, and the PP1 menu, and version number. 
+Decimal points are only used for Celsius, the PP1 menu, and version number. 
 The early 2001 top units (with a + and - instead of an up and down arrows) 
 cannot display decimal points).
 
-16 = Stock Settings
+16 = Stock Settings:
 If this is enabled, the board will more closely follow the stock C-2013 firmware
 
-32 = Disable proactive heat
+32 = Disable proactive heat:
 If the firmware notices the temperature is going down with the heat on, it will 
 turn the heat mode on even if it hasn't hit the setpoint yet.
 
-64 = Enable tenth degree
+64 = Enable tenth degree:
 Normally the board reports full degrees (or half degree Centigrade).  To instead 
 show the temperature to the tenth of a degree enable this.  Note, if the 
 temperature is 100 or over, it can't show the tenths, and instead will end the 
@@ -151,15 +156,15 @@ value with a decimal point if it is .5 or over. So 100.2 will show as "100" and
 
 #### PP8 Mode.  This does not need to be edited, as it can be changed with the 
 documented commands
-00 = Startup in normal mode
-01 = Startup in economy mode
-02 = Startup in overnight mode
+    00 = Startup in normal mode
+    01 = Startup in economy mode
+    02 = Startup in overnight mode
 
 #### PP9 Wi-Fi mode.  See Wi-Fi notes for details
 
 #### P10 Microcontroller temperature adjustment.
 This can be used to adjust the temperature reported in the diagnostic info to 
-more accurately reflect degrees Celsius.  Decrease this value if the 
+more accurately reflect the actual temperature.  Decrease this value if the 
 temperature is to high, increase it if it is too low.  The units are degrees 
 Celsius.
 
