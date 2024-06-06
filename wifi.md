@@ -12,6 +12,8 @@ This has been tested with a Sonoff Elite and a Shelly Plus Uni.  The
 Shelly Plus Uni is the simpler installation, because it can be installed
 in the control panel box and can tie into the existing control board for power.
 
+Here is a Shelly Uni with the custom adapter board plugged into a Softub board:
+
 ![Adapter with Shelly Uni](assets/wifi.jpg)
 
 While a Sonoff or another device could also directly control a hot tub,
