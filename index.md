@@ -37,7 +37,7 @@ of the system intact.
 your hot tub. Also, if your jets button is broken, you can start 
 the jets by holding down the lights button for 2 seconds.
 
-- It can work with replacement power supplies, so if you've been told the board can't be repaired, it likely can be now.  Here's an example:
+- It can work with replacement power supplies, so if you've been told the board can't be repaired, it likely can be now. 
   [Here is an example](assets/repaired.jpg)
   
 - There is a service menu that lets you change many of the parameters, like changing from Farenheight to Celsius.
