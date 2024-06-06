@@ -122,8 +122,8 @@ Solution:
 You may need to add an external antenna, as the metal box might be blocking
 the signal.  You could try moving the antenna outside the box facing the router,
 or even outside the Hydromate. Here are some possible compatible antennas solutions:
-- [Option 1 Antenna](https://www.amazon.com/Antenna-Pigtail-Wireless-Routers-Repeater/dp/B07R21LN5P)
-  [Option 1 Adapter](https://www.amazon.com/wlaniot-Pigtail-Wireless-Gateway-External/dp/B08ZYK5SL9)
+- [Option 1 Antenna] (https://www.amazon.com/Antenna-Pigtail-Wireless-Routers-Repeater/dp/B07R21LN5P), 
+  [Adapter](https://www.amazon.com/wlaniot-Pigtail-Wireless-Gateway-External/dp/B08ZYK5SL9)
 - [Option 2](https://www.amazon.com/YOTENKO-Antenna-Omni-Directional-Adapter-Wireless/dp/B0BZGZ1FW8/)
 
 Another option is to move your router or add another wireless access point closer
