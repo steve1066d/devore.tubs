@@ -28,8 +28,8 @@ pressing the jets button. You can have silence when you soak if you so desire.
 provide a more accurate estimate of the actual tub temperature compared to the 
 stock firmware.  
 
-- It can be monitored and controlled with Wifi using a Sonoff Elite, or a Shelly 
-Uni Plus, along with an optional Wifi adapter board.  It works in conjunction
+- It can be monitored and controlled with Wi-Fi using a Sonoff Elite, or a Shelly 
+Uni Plus, along with an optional Wi-Fi adapter board.  It works in conjunction
 with the existing control panel, keeping the safety and functionality
 of the system intact.
 
@@ -40,7 +40,7 @@ the jets by holding down the lights button for 2 seconds.
 - It can work with replacement power supplies, so if you've been told the board can't be repaired, it likely can be now. 
   [Here is an example](assets/repaired.jpg)
   
-- There is a service menu that lets you change many of the parameters, like changing from Farenheight to Celsius.
+- There is a service menu that lets you change many of the parameters, like changing from Fahrenheit to Celsius.
 
 ### Documentation
   
@@ -55,6 +55,7 @@ Upgrading existing Softub boards would generally be done by a electronics profes
 
 ### Purchasing
 Coming soon.  If you are interested send me an email: [devore.tubs@gmail.com](mailto:devore.tubs@gmail.com)
+
 
 
 

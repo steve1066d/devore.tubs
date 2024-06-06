@@ -11,7 +11,7 @@ which black wire goes to which connection)
 - OUT1: In
 - OUT1: GND2
 
-Follow the directions from Shelly to get it up and running. its recommended to 
+Follow the directions from Shelly to get it up and running. It is recommended to 
 temporarily power it from the usb connector before installing it in the tub. You
 should be able to turn it on and off the from the Shelly app before installing
 it in the Hydromate.
@@ -19,7 +19,7 @@ it in the Hydromate.
 ### Notes
 The Shelly recommends running when the ambient temperature is no more than 
 104F.  However, because we aren't driving current through it it should heat 
-up less and be okay in the Hydromate  It will shut off if it reaches 95C (203F).
+up less and be okay in the Hydromate.  It will shut off if it reaches 95C (203F).
 If that happens you should look at changing the location of the Shelly.  You
 may also put in a waterproof case outside the Hydromate, or on top of the box
 housing the control panel.
@@ -41,4 +41,5 @@ the socket and cable, you can use the screw terminal to connect the wires:
 - Pin 7 (Green):  GND
 
 Pin 6 (5V) should only be hooked up if you are powering the Shelly from the board (which isn't recommended for the C-2001 boards.).
+
 

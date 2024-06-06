@@ -10,11 +10,11 @@ circuit can control the Softub.
 
 This has been tested with a Sonoff Elite and a Shelly Plus Uni.  The 
 Shelly Plus Uni is the simpler installation, because it can be installed
-in the control panel box, and can tie into the existing control board for power.
+in the control panel box and can tie into the existing control board for power.
 
 ![Adapter with Shelly Uni](assets/wifi.jpg)
 
-While a Sonoff or other device could also directly control a hot tub,
+While a Sonoff or another device could also directly control a hot tub,
 this integration is better because the control panel continues to work, the 
 safety features built into the board are not bypassed, and filter and ozone 
 calls continue to work normally.  Also, the Sonoff Basic or Elite is only rated
@@ -41,8 +41,8 @@ If you are installing some other device, use these as a general guide.
 After attaching the Wi-Fi device to the adapter board continue with the
 following:
 
-Unplug the Hydromate, and expose the control board.  If using the Shelly, use 
-some tape to  surround the Shelly to ensure it doesn't come in contact with 
+Unplug the Hydromate and expose the control board.  If using the Shelly, use 
+some tape to surround the Shelly to ensure it doesn't come in contact with 
 anything it shouldn't.  Trim or put electrical tape over unused wires.
 
 Attach the adapter board to J9.  Make sure the pins line up. If the board is 
@@ -55,7 +55,7 @@ When the power is turned on, the Shelly app will show the tub temperature.
 For controlling the Softub there are 4 options: 
 
 The normal option, called "Default", Shelly will show the current temperature,
-and when the app turns on, it equivalent of pressing the Softub jets button.  
+and when the app turns on, it is equivalent to pressing the Softub jets button.  
 This way, the temperature can be monitored by Shelly, but it is still controlled 
 by the tub itself.
 
@@ -69,11 +69,11 @@ temperature (104 or whatever has been configured).
 The third option, "Heat", is where Shelly should determine the heat
 cycles instead of the Shelly. First, set up rules on Shelly to control the start 
 and stop temperatures. While the connection is active, Shelly would control the heat 
-cycles, subject to the  min & max temperatures configured on the board. The 
+cycles, subject to the min & max temperatures configured on the board. The 
 jets button would still work normally, and you could change the temperature on 
 the tub itself, but it would reset the next time Shelly turns from on to off 
 (that is when it updates the set temperature). If Shelly stops responding for over
-a minute, the firmware will follow the the last set point).
+a minute, the firmware will follow the last set point).
 
 The fourth option, "Enable" is where you want to limit the heat and filter
 runs to certain hours.  Anytime the Shelly is off it won't run the heat or
@@ -82,7 +82,7 @@ is called for after the jets button has started it will run to the normal set
 point. If you do wish it to not do that, simply press the jets button when you
 leave the tub.
 
-The mode can configured in the service menu, under PP9:
+The mode can be configured in the service menu, under PP9:
 - 00: Off
 - 01: Default
 - 02: Override
@@ -107,7 +107,7 @@ of the following values for each output that is on:
 4 Ozone
 2 Heat
 1 Filter
-(So if the pump, heat, and lights are on, it will return a humidity of 26).
+(So, if the pump, heat, and lights are on, it will return a humidity of 26).
 
 This is enabled by adding 128 to PP6.
 
@@ -129,7 +129,7 @@ to the Softub.
 ### Technical details
 
 The adapter board is a small board PCB that plugs into J9, and has some screw
-terminals to connect to the wifi device. It also has a socket to connect the Shelly 
+terminals to connect to the Wi-Fi device. It also has a socket to connect the Shelly 
 directly.
 
 The programming header has access to pins 1, 27, and 28.  Since 28 is the same 
@@ -143,3 +143,4 @@ can work if J2 is jumpered.
 The adapter board also converts the 3.3v logic of the Shelly or Sonoff to the 
 5v logic of the Softub. The board will work with any device that runs between
 3 and 5 volts.
+

@@ -1,6 +1,6 @@
 # Replacement Softub firmware manual
 
-This replacement firmware for the Softub works similar to the Softub provided
+This replacement firmware for the Softub works like the Softub provided
 one, with a few enhancements.  Note that this product is not affiliated with 
 Softub.  Softub and HydroMate are registered trademarks of Softub, Inc.
 
@@ -8,11 +8,11 @@ This firmware can be used with all digital boards.
 
 ### Features
 
-The following are the differences and enhancements of the this firmware over 
+The following are the differences and enhancements of this firmware over 
 the stock firmware provided by Softub.
 
 If the temperature is set, it will keep the set temp even if power is lost. 
-The stock Softub firmware would revert back to 100F (38C).
+The stock Softub firmware would revert to 100F (38C).
 
 When power is first provided, the tub will show its set point for 5 seconds,
 and then show the standard "P" (or the tub temperature if so configured), and
@@ -23,8 +23,8 @@ seconds, and it will start repeating.  Lift up when the desired set temperature
 is reached.
 
 If a tub is running and the jets button is pressed, the tub will stop for 20 
-minutes, even if it is heating  (The stock program only will stop if it isn't 
-heating. After the 20 minutes, it will start again, if it cool enough to call
+minutes, even if it is heating (The stock program only will stop if it isn't 
+heating. After the 20 minutes, it will start again, if it is cool enough to call
 for heat.  However, if the ozone generator is running, the jets button will 
 first stop the ozone, so if that is the case, and you want to stop the jets,
 press the jets button a second time.
@@ -39,7 +39,7 @@ Likewise holding down the down, light, and jets button will turn off the
 overnight mode, blinking "12" twice.
 
 Once a temperature or special mode is selected, it will keep the setting even
-if the tub loses power. So if the tub is set to 102, instead of returning back
+if the tub loses power. So, if the tub is set to 102, instead of returning back
 to 100, it will retain the temperature of 102. However, because the board 
 doesn't keep time when it is off, it may run at odd times if the overnight or 
 economy mode is selected when power is lost. If that happens, reselect the 
@@ -93,3 +93,4 @@ down buttons again, until "P" is displayed.
 ### Errors:
 IPS will reset automatically if the voltage corrects itself (similar to the 
 stock board).  P01 can be reset by pressing any button.
+

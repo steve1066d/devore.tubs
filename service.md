@@ -28,7 +28,7 @@ expecting. If you want to revert to default settings, set the default
 temperature (PP0) to "255".  On next restart it will replace all settings with
 defaults.
 
-While in the service mode you can press the up and down  buttons to reset the 
+While in the service mode you can press the up and down buttons to reset the 
 Softub. Doing so will not save any changes you have made.
 
 #### PP0: Default temperature.  
@@ -36,8 +36,8 @@ If you want the system to be set to a different temperature on startup, change
 this.  Though normally this is changed automatically when the setting changes.
 
 #### PP1: Probe offset. 
-This is tenths of a degree to offset the probe setting, with 10.0  as the base. 
-So a setting of "9.0" will cause the temperature to be reported 1 degree colder.
+This is tenths of a degree to offset the probe setting, with 10.0 as the base. 
+So, a setting of "9.0" will cause the temperature to be reported 1 degree colder.
 A setting of 12.0 will be 2 degrees warmer.  Values under 10.0 cause pool 
 temps to get hotter because it is adjusted to a lower temperature.
 
@@ -57,7 +57,7 @@ activate, disabling the pump.
 Once the tub is up to temp, the system waits until the temp probe goes down 
 this many degrees F (or half degrees C) before calling for heat again. The 
 default is 4 but if you increase it, the pump will run less often (but for 
-longer).  As power cycles increase the wear on the pump, It may be helpful to 
+longer).  As power cycles increase the wear on the pump, it may be helpful to 
 adjust this.  It is important to note that the temp probe is inside the 
 HydroMate, so you may find that a large deadband only causes a small fluctuation 
 in tub temperature.
@@ -67,7 +67,7 @@ If the pump is heating, if the temperature is this degrees F over (or half
 degrees C), then the pump will shut off.  The default is 2. 
 
 #### PP6 Operational flags
-To use this, add up the numbers and configure that value.  So if you want to 
+To use this, add up the numbers and configure that value. If you want to 
 use Fahrenheit, disable P and disable IPS, you would enter 11 (1 + 2 + 8).  
 Note that generally the flags disable something, so you would set it to "1" to 
 disable the feature.
@@ -110,7 +110,7 @@ points and heat status.  If instead you want to display the raw temperature of
 the probe (similar to what the stock firmware does), use this flag. 
 
 128 = Encode status as humidity reading.
-See the WiFi guide for details
+See the Wi-Fi guide for details
 
 #### PP7  Additional service flags.
 1 = Disable Save settings:
@@ -158,7 +158,7 @@ documented commands
 #### PP9 Wi-Fi mode.  See Wi-Fi notes for details
 
 #### P10 Microcontroller temperature adjustment.
-This can be used to adjust  the temperature reported in the diagnostic info to 
+This can be used to adjust the temperature reported in the diagnostic info to 
 more accurately reflect degrees Celsius.  Decrease this value if the 
 temperature is to high, increase it if it is too low.  The units are degrees 
 Celsius.
@@ -166,17 +166,18 @@ Celsius.
 #### Alternate Buttons
 
 If a top panel button or buttons fail, it is possible to add a normally open 
-push button to the the jumper pads on the board.  To do this you would need to
+push button to the jumper pads on the board.  To do this you would need to
 solder a pair of wires on the jumper pads, then route the wires for the 
 pushbutton out of the enclosure.  If you go this route, make sure you have a 
 waterproof cable nut to protect the enclosure from getting wet and you route the 
-cable so that it it has a dip below the pump to make sure water doesn't work its 
+cable so that it has a dip below the pump to make sure water doesn't work its 
 way into the control panel box. While it would be better to replace the control 
 panel, this is an option for someone confident on their installation skills.  You 
 can either replace all the buttons or just the broken buttons.  Here's the 
 connection placements:
 
-JP3: Lights
-JP4: Jets
-JP5: Up
-JP6: Down
+    JP3: Lights
+    JP4: Jets
+    JP5: Up
+    JP6: Down
+
