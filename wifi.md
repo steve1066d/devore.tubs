@@ -85,11 +85,11 @@ point. If you do wish it to not do that, simply press the jets button when you
 leave the tub.
 
 The mode can be configured in the service menu, under PP9:
-- 00: Off
-- 01: Default
-- 02: Override
-- 03: Heat
-- 04: Enable
+    00: Off
+    01: Default
+    02: Override
+    03: Heat
+    04: Enable
 
 In all modes, the tub continues to follow its normal programming, so for example
 it will continue to do filter runs, and turn on the Ozone generator, if 
@@ -97,33 +97,34 @@ installed and enabled.
 
 
 
-### Control Board State
+### Monitoring the Control Board State
 Its possible to return the various status for the control board's outputs to
 use in a home automation script. The states of the various outputs can be 
 encoded into the humidity value, instead of returning 0.
 
 If this is enabled, and a Wi-Fi device is attached, it will return the sum
 of the following values for each output that is on:
-16 Pump
-8 Lights
-4 Ozone
-2 Heat
-1 Filter
+    16 Pump
+    8 Lights
+    4 Ozone
+    2 Heat
+    1 Filter
 (So, if the pump, heat, and lights are on, it will return a humidity of 26).
 
 This is enabled by adding 128 to PP6.
 
 
 ### Troubleshooting
-The Wi-Fi device works fine for testing, but it loses connection in the 
+Problem: The Wi-Fi device works fine for testing, but it loses connection in the 
 Hydromate
 
+Solution:
 You may need to add an external antenna, as the metal box might be blocking
 the signal.  You could try moving the antenna outside the box facing the router,
-or even outside the Hydromate. Here are some possible compatible antennas:
-- [Option 1](https://www.amazon.com/Antenna-Pigtail-Wireless-Routers-Repeater/dp/B07R21LN5)
-- [Option 2](https://www.amazon.com/wlaniot-Pigtail-Wireless-Gateway-External/dp/B08ZYK5SL9)
-- [Option 3](https://www.amazon.com/YOTENKO-Antenna-Omni-Directional-Adapter-Wireless/dp/B0BZGZ1FW8/)
+or even outside the Hydromate. Here are some possible compatible antennas solutions:
+- [Option 1 part 1](https://www.amazon.com/Antenna-Pigtail-Wireless-Routers-Repeater/dp/B07R21LN5P)
+- [Option 1 part 2](https://www.amazon.com/wlaniot-Pigtail-Wireless-Gateway-External/dp/B08ZYK5SL9)
+- [Option 2](https://www.amazon.com/YOTENKO-Antenna-Omni-Directional-Adapter-Wireless/dp/B0BZGZ1FW8/)
 
 Another option is to move your router or add another wireless access point closer
 to the Softub.
