@@ -20,7 +20,7 @@ While a Sonoff or another device could also directly control a hot tub,
 this integration is better because the control panel continues to work, the 
 safety features built into the board are not bypassed, and filter and ozone 
 calls continue to work normally.  Also, the Sonoff Basic or Elite is only rated
-for 1/2 hp or smaller pumps.  (Softub uses a 1 HP pump), so twice as big as what is
+for 1/2 hp or smaller pumps.  (Softub uses a 1.5 HP pump), so twice as big as what is
 recommended).  This integration only uses a tiny amount of current, and the 
 switching is done using the boards relays.
 
@@ -49,15 +49,14 @@ anything it shouldn't.  Trim or put electrical tape over unused wires.
 
 Attach the adapter board to J9.  Make sure the pins line up. If the board is 
 a newer C-2013, you may need to Jumper J2 to provide a ground connection, as the 
-ground pin on J9 isn't connected.  See the C-2013 section on identifying this
-problematic board.
+ground pin on J9 isn't connected.  See the installation guide for details.
 
 ### Configuration
 When the power is turned on, the Shelly app will show the tub temperature. 
 For controlling the Softub there are 4 options: 
 
 The normal option, called "Default", Shelly will show the current temperature,
-and when the app turns on, it is equivalent to pressing the Softub jets button.  
+and when the app turns on, it is equivalent to pressing the Softub jets button. 
 This way, the temperature can be monitored by Shelly, but it is still controlled 
 by the tub itself.
 
