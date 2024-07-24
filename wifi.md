@@ -110,6 +110,7 @@ of the following values for each output that is on:
     4 Ozone
     2 Heat
     1 Filter
+
 For example, if the pump, heat, and lights are on, it will return a humidity of 26. This is enabled by adding 128 to PP6.
 
 

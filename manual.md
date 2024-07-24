@@ -81,6 +81,10 @@ Also, if it sees the temperature is starting to drop, it will call for heat
 so the tub keeps running. The tub would have to get quite cool before calling
 for heat with the stock firmware.
 
+In this mode, if you press the temp up button the heat mode will turn on unless
+it is already up to temp. Also, if the down arrow is pressed, then the pump will 
+turn off heat mode unless it is not up to temp yet.
+
 Finally, instead of having to use the special mode to set the temperature to 
 105 or 106, you can set it directly.
  
@@ -93,4 +97,3 @@ down buttons again, until "P" is displayed.
 ### Errors:
 IPS will reset automatically if the voltage corrects itself (similar to the 
 stock board).  P01 can be reset by pressing any button.
-
