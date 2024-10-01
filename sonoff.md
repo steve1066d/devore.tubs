@@ -11,12 +11,12 @@ Additional Requirements:
 - Cable glands to route cables through the control panel enclosure.
 - A RJ9 telephone cable (like the following): (Note that it is smaller than a 
 regular phone plug).
-[https://www.digikey.com/en/products/detail/assmann-wsw-components/AT-S-26-4-4-B-7-OE/1972678]
+[https://www.digikey.com/en/products/detail/assmann-wsw-components/AT-S-26-4-4-B-7-OE/1972678](https://www.digikey.com/en/products/detail/assmann-wsw-components/AT-S-26-4-4-B-7-OE/1972678)
 - A cable of 2 conductors. (24-28 AWG).
 
 ### Installation:
 See the diagram:
-[https://imgur.com/W8PoOOU]
+[https://imgur.com/W8PoOOU](https://imgur.com/W8PoOOU)
 
     Adapter    RJ9
     VCC        4 (VCC)
