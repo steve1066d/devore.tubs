@@ -33,7 +33,7 @@ This board uses a power supply that puts out more heat than other boards, so
 it may get too hot for the Shelly to be inside of the control box or powered from the board.
 This unit should be installed outside the board enclosure. Possible locations are on top of the enclosure, or 
 even outside the Hydromate in a waterproof box. To extend the wires, Wago connectors can be 
-used, along with wire (22 to 28 AWG). https://www.amazon.com/dp/B07CNKLZPQ. Instead of using 
+used, along with wire (22 to 28 AWG). [https://www.amazon.com/dp/B07CNKLZPQ](https://www.amazon.com/dp/B07CNKLZPQ). Instead of using 
 the socket and cable, you can use the screw terminal to connect the wires:
 
 - Pin 4 (Yellow): VCC
