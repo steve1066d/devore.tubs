@@ -5,6 +5,7 @@ to install.
 
 ### Installation Instructions:
 [https://itead.cc/product/sonoff-th-elite-smart-temperature-and-humidity-monitoring-switch/ref/3/](https://itead.cc/product/sonoff-th-elite-smart-temperature-and-humidity-monitoring-switch/ref/3/)
+
 Additional Requirements:
 - A waterproof case for the Sonoff 
  A power cord for the Sonoff
