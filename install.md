@@ -2,7 +2,7 @@
 
 This updated microprocessor is meant to be installed on a Softub controller 
 board.  It is compatible with the C-2001, C-2003, C-2006, and C-2013 board 
-revisions, both the European and US variants.  Its compatible with the 
+revisions, both the European and American variants.  Its compatible with the 
 current control panels, as well as the original control panel released with the 
 2001 units.
 
@@ -43,4 +43,8 @@ Some C-2013 boards do not have ground on Pin J9-8.  For those, it is recommended
 to jumper JP2 to provide ground for the Wi-Fi adapter board. This needs to be 
 done if there is not continuity between J9-8 and J2-3. Since that jumper is 
 used to indicate a Celsius board, if Fahrenheit is desired, power up the board
-before adding the jumper, or else the board will default to Celsius.
+before adding the jumper or else the board will default to Celsius.
+
+After replacing the microcontroller, the conformal coating should be touched up.
+Depending on the board, it will be either an acryllic or silicone coating.
+Use the same type of coating as is currently on the board.
