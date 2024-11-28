@@ -11,7 +11,7 @@ It is also the most accurate way of measuring it, since the built-in temperature
 Hydromate plumbing, which can be quite different than the actual tub temperature.
 
 ## Basic Approaches to Controlling
-There are two approaches to controlling the Softub:
+There are a few approaches to controlling the Softub:
 1.	Replacing the Controller Board and Control Panel
 Use a generic smart home device, such as a Sonoff, to replace the Softub’s existing circuit board and control panel.
 2.	Integrating with an upgraded Control Board and Control Panel
@@ -69,5 +69,5 @@ Here’s a picture of the Shelly and adapter board plugged into an upgraded cont
 
 ### Other Options
 
-If you are an electronics hobbyist and interested in doing something custom, see [this page](custom.html).
+If you are an electronics hobbyist and interested in doing something custom, see [this page](custom.html) for ideas.
 
