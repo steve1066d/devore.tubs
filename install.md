@@ -30,6 +30,13 @@ on a C-2001 board it will cause an IPS on startup).  Also, this can be used if
 the board has been modified by replacing the AC to DC power circuit with a 
 replacement 5V power converter.
 
+If JP6 is jumpered on startup, the board will go into test mode.
+Pressing the Light button will turn on light (J5), the Jets button will turn on ozone (K4).  The Up will turn on
+Pump (K2), and the Down will turn on Enable (K1).
+In this mode, the display will show the current jumpers:  If RE3 is pressed, then the heat LED will show
+JP2 is 2, JP3 is 4, JP4 is 8, JP6 is 16.  The JPs are added up and displayed.  If no jumpers are displayed
+then the current raw temp is displayed, which should be around 500 if 100F (1.0v) is displayed.
+
 After starting the first time, the jumpers are subsequently ignored, and instead
 uses the configuration stored in EEPROM.
 
