@@ -1,4 +1,4 @@
-### Wi-Fi Integration
+# Wi-Fi Integration
 
 This allows Wi-Fi operation and integration with digital assistants Alexa and 
 Google Home and other home automation platforms. The new firmware emulates a
@@ -8,9 +8,26 @@ it can be controlled by a home automation device.
 Any device that can support a DHT22 sensor and can support controlling a 5v 
 circuit can control the Softub.
 
-This has been tested with a Sonoff Elite and a Shelly Plus Uni.  The 
-Shelly Plus Uni is the simpler installation, because it can be installed
+## Limitations:
+Because it is using a third party device, only the current temperature is reported, 
+and actions of the smart device is limited to certain defined actions.  See the "Modes" 
+seciton below for details.
+
+
+## Devices
+This has been tested with a Sonoff Elite and a Shelly Plus Uni.  There are
+advantages and disadvantages of each:
+
+#### Sonoff Elite
+The Shelly can't be installed in the Hydromate, so it requires using a waterproof
+enclosure, and routing wires through the control box.  However, it is an easier app
+to use, and is able to report the temperature to Alexa.
+
+#### Shelly Plus Uni
+The Shelly Plus Uni is the simpler installation, because it can be installed
 in the control panel box and can tie into the existing control board for power.
+However, it doesn't allow the temperature to be reported directly to Alexa or
+Google Home, unless Home Assistant or some other MQTT intermediary is used).
 
 Here is a Shelly Uni with the custom adapter board plugged into a Softub board:
 
