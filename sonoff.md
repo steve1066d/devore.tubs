@@ -8,7 +8,7 @@ to install.
 
 Additional Requirements:
 - A waterproof case for the Sonoff 
- A power cord for the Sonoff
+- A power cord for the Sonoff
 - Cable glands to route cables through the control panel enclosure.
 - A RJ9 telephone cable (like the following): (Note that it is smaller than a 
 regular phone plug).
