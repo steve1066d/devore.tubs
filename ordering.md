@@ -30,7 +30,7 @@ Each upgrade has a one-year warranty.  See the [warranty page](warranty.html) fo
 ### Wi-Fi adapter board
 The modified board supports working with a smart swtich, to integrate it with Wi-Fi as a smart device.  However, Softub uses 5 volt logic, and most home automatition devices expect 3.3 volts.
 The Wi-Fi adapter does the voltage translation, along with making an easy way of connecting the Shelly or Sonff.
-The cost is $40.  See xxx for details.
+The cost is $40.  See [this page](wifi.html) for details.
 
 ## Order now
 Please email me at devore.tubs@gmail.com.
