@@ -38,3 +38,11 @@ another cable gland for this cable.
 The unit itself should be either installed outside of the Hydromate or 
 possibly on top of the of the control panel enclosure.
 
+### Alternate instructions for using a Shelly without the Wi-Fi adapter
+It is possible to control the Softub without the adapter board, if you don't require returning the temperature from the Softub.
+
+To install this, you don't need the RJ9 cable, but just use the 2 conductor cable, and install it on pins 5 and 8 on J9. It doesn't matter which wire goes to which pin 
+To attach to the post, one option is to use [female jumper wire](https://www.amazon.com/Fielect-Female-Breadboard-Jumper-2-54mm/dp/B0819PX1GY) with one side cut off, and attached to the cable with Wago nuts.
+
+The cable attaches to these posts:
+![assets/sonoff-direct.jpg]
