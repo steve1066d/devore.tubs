@@ -37,7 +37,7 @@ In this mode, the display will show the current jumpers:  If RE3 is pressed, the
 JP2 is 2, JP3 is 4, JP4 is 8, JP6 is 16.  The JPs are added up and displayed.  If no jumpers are displayed
 then the current raw temp is displayed, which should be around 500 if 100F (1.0v) is displayed.
 
-After starting the first time, the jumpers are subsequently ignored, and instead
+After starting the first time, the JP2 and JP4 jumpers are ignored, and instead
 uses the configuration stored in EEPROM.
 
 If JP3 is jumpered and powered, it will reset the chip back to defaults (and 
