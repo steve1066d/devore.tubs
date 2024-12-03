@@ -35,13 +35,12 @@ with the existing control panel, keeping the safety and functionality
 of the system intact.
 
 - If your control panel has buttons that don't work, you can add normal pushbuttons to control
-your hot tub. Also, if your jets button is broken, you can start 
-the jets by holding down the lights button for 2 seconds.
+your hot tub.
 
 - It can work with replacement power supplies, so if you've been told the board can't be repaired, it likely can be now. 
   [Here is an example](assets/repaired.jpg)
   
-- There is a service menu that lets you change many of the parameters, like changing from Fahrenheit to Celsius.
+- There is a service menu that lets you change many of the parameters, like changing from Fahrenheit to Celsius and the maximum and minimum temperatures.
 
 ### Documentation
   
