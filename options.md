@@ -2,8 +2,9 @@
 
 ![pictures of boards with various Wi-Fi options](assets/wifi-options.jpg)
 
+### No easy options
 There aren’t any plug-and-play solutions available right now, so all approaches require some degree of electrical, electronics, and programming knowledge. This page documents
-some possible appraches
+some possible appraches.
 
 ### Monitoring the Temperature.
 If all you want to do is keep track of the tub’s temperature, then a floating wireless temperature probe is a simple solution:  [https://www.amazon.com/dp/B0C5CC46NZ]. 
@@ -28,7 +29,7 @@ However, there are things need to be considered:
 
 ### Safety:
 The Sonoff is only meant to work with a max of ½ hp motor, so there’s a real chance for it to prematurely fail, and do so it a possibly dangerous way. While the
-Sonoff is rated for 20 amps, that is for resistive loads.T he stock control board is designed to prevent the hot 
+Sonoff is rated for 20 amps, that is for resistive loads. The stock control board is designed to prevent the hot 
 tub from becoming dangerously hot. It has a separate high limit circuit with its own relay that tries to ensure that it never exceeds about 112F no matter 
 what part fails.  (though if multiple parts fail it can still malfunction). If a Softub gets stuck in the "on" state, it could reach unsafe temperatures, 
 potentially damaging the tub, the Hydromate, or causing scalding injuries. For the Sonoff, you are trusting that single undersized relay to not fail closed.
@@ -37,7 +38,7 @@ potentially damaging the tub, the Hydromate, or causing scalding injuries. For t
 Instead of directly controlling the Softub pump, use it to turn on a contactor, such as [this one](https://www.amazon.com/gp/product/B08883NP6D).  
 The contactor is a heavy duty relay designed to work with
 inductive loads.  You can use two of them in series to ensure that even if one is stuck it won't be stuck on.  (There's some other failure modes that could still
-cause runaway temperatures, however, so its not quite as safe as the original board). Also, consider adding an alarm in the Sonoff app if It goes over a certain 
+cause runaway temperatures, however, so its still not as safe as the original board). Also, consider adding an alarm in the Sonoff app if It goes over a certain 
 temp.
 
 ### Ease of Use
@@ -50,13 +51,12 @@ improvements and how to get this for your own tub.
 
 ### Using a timer or a smart switch
 * Since an upgraded board will return to the last temperature set instead of returning to 100F, you could simply plug the Softub into a smart plug or timer.
-*  So if the plug turns on the tub would return to the last temp.  This could work well if you only wanted it to run during certain hours of the day, for example.
-Using a Sonoff with the updated board. 
+* When the smart plug turns on, the tub would return to the last temp.  This could work well if you only wanted it to run during certain hours of the day, for example.
 
 ### Integrating with the updated board
 The updated board can sense on and off requrest from devices that work with "dry" relays such as the [Sonoff Elite](https://www.amazon.com/SONOFF-POWR320D-Monitoring-Universal-Assistant/dp/B09XB3RZB9). 
 Like the previous option, you could use this to only run heat during certain hours, but still work normally for other hours.  
-Unlike the previous option, if it is configured this way, the control panel stays operational even when the Sonoff is “off”. Also, even if you lose internet, the tub continues to work normally.
+Unlike the previous option, if it is configured this way the control panel stays operational even when the Sonoff is “off”. Also, even if you lose internet, the tub continues to work normally.
 
 ### Wi-Fi Adapter board and Smart Device
 The upgraded board can send the current temperature to the Sonoff, but it needs to convert the voltage from the 5 volts the Softub uses to the 3.3 volts the Sonoff needs.  
