@@ -40,7 +40,7 @@ your hot tub.
 - It can work with replacement power supplies, so if you've been told the board can't be repaired, it likely can be now. 
   [Here is an example](assets/repaired.jpg)
   
-- There is a service menu that lets you change many of the parameters, like changing from Fahrenheit to Celsius and the maximum and minimum temperatures.
+- There is a service menu that lets you change many of the parameters, like changing from Fahrenheit to Celsius.
 
 ### Documentation
   
