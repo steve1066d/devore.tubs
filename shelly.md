@@ -16,6 +16,9 @@ temporarily power it from the usb connector before installing it in the tub. You
 should be able to turn it on and off the from the Shelly app before installing
 it in the Hydromate.
 
+When installing the Shelly, wrap it with tape to help ensure it doesn't rub against any electrical components.  
+Consider using zip ties to secure the Shelly.
+
 ### Notes
 The Shelly recommends running when the ambient temperature is no more than 
 104F.  However, because we aren't driving current through it it should heat 
