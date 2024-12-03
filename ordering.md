@@ -33,4 +33,4 @@ The Wi-Fi adapter does the voltage translation, along with making an easy way of
 The cost is $40.  See [this page](wifi.html) for details.
 
 ## Order now
-Please email me at devore.tubs@gmail.com.
+Please email me at [devore.tubs@gmail.com](mailto:devore.tubs@gmail.com?subject=Order)
