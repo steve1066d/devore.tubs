@@ -3,7 +3,7 @@
 The following prices are for customers in the USA.  Please contact me pricing for other locations.
 
 ### Replacing the microcontroller on a working board
-If you have a currently working board, and wish to upgrade, the cost is $100, including shipping in the USA.
+If you have a currently working board, and wish to upgrade, the cost is $80, including shipping in the USA.
 This includes a full test of the board and its power supply to ensure the board will continue to work.
 The microcontroller and program are backed with a 1-year warranty.  Also, if a board fails within a year for some reason, 
 the price of this upgrade can be applied to a future rebuilding of the board. 
@@ -30,7 +30,7 @@ Each upgrade has a one-year warranty.  See the [warranty page](warranty.html) fo
 ### Wi-Fi adapter board
 The modified board supports working with a smart swtich, to integrate it with Wi-Fi as a smart device.  However, Softub uses 5 volt logic, and most home automatition devices expect 3.3 volts.
 The Wi-Fi adapter does the voltage translation, along with making an easy way of connecting the Shelly or Sonoff.
-The cost is $40.  See [this page](wifi.html) for details.
+The cost is $50.  See [this page](wifi.html) for details.
 
 ## Order now
 Please email me at [devore.tubs@gmail.com](mailto:devore.tubs@gmail.com?subject=Order)
