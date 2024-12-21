@@ -53,9 +53,6 @@ Upgrading existing Softub boards would generally be done by a electronics profes
 
 [Wi-Fi integration](wifi.md)
 
-### Purchasing
-Coming soon.  If you are interested send me an email: [devore.tubs@gmail.com](mailto:devore.tubs@gmail.com)
-
-
-
+### Ordering
+Either order just the upgrade, or also [repair or refurbish your board](orders.html)
 
