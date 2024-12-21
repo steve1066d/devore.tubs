@@ -54,5 +54,5 @@ Upgrading existing Softub boards would generally be done by a electronics profes
 [Wi-Fi integration](wifi.md)
 
 ### Ordering
-Either order just the upgrade, or also [repair or refurbish your board](orders.html)
+Either order just the upgrade, or also [repair or refurbish your board](ordering.html)
 
