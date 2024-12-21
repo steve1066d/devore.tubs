@@ -1,3 +1,7 @@
+# What you get
+
+You get the upgraded firmware which allows you to configure the maximum temperature, and will keep the set temperature on a power loss, along with [many other features](index.md).
+
 # Ordering Options
 
 The following prices are for customers in the USA.  Please contact me pricing for other locations.
