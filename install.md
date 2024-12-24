@@ -55,3 +55,23 @@ before adding the jumper or else the board will default to Celsius.
 After replacing the microcontroller, the conformal coating should be touched up.
 Depending on the board, it will be either an acryllic or silicone coating.
 Use the same type of coating as is currently on the board.
+
+### Testing the Board
+If JP6 is jumpered on startup, the board will be set to a special test mode to test all of the
+inputs and outputs to make sure everything is connected correctly.
+
+In this mode, holding down the buttons on the controller will do the following:
+  Light: Enables Lights  
+  Jets: Enables Ozone  
+  Up: Enables hi-limit relay (K1)  
+  Down: Enables Pump and 2nd speed relays (K2 & K3)  
+  Any button and J9, pin8 to ground:  Will cause the display to reset.  
+
+The jumpers can be tested and will show values on an attached control panel.  If you see a 0 then there is a bad connection
+If you see other number, then look for a solder bridge.  
+JP2: 1  
+JP3: 2  
+JP4: 4  
+JP5: 8  
+JP6: 16  
+J9, pin 8 to ground:  32
