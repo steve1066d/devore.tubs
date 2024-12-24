@@ -1,3 +1,24 @@
+## Service Manaul
+
+### Diagnostic Information
+Holding down the Light and Jets button for 4 seconds will display some diagnostic
+information. It first shows the version of the firmware  (currently 1.10), and 
+with each press of the jets button, displays additional information.  It will show
+in order:
+1. The version of the firmware (currently 1.10)
+2. The number of days the Softub has been running without a power interruption 
+   or reset.
+3. The raw temperature of the microcontroller. It isn't calibrated, and is only
+   useful if you have a previous value to compare it to.
+4. The temperature probe in tenths of a degree.  This is the unadjusted value.
+   If the temperature is 100 or over, the value shown will be the temp minus 100.
+5. The voltage of the power supply.  If the voltage drops below 97v (194v on 220v)
+   the system will fail with the IPS error. If IPS is disabled, this is not 
+   shown. The maximum voltage that will be displayed is 117v (234v), even if the 
+   voltage is higher.
+The screen returns to normal after all values are shown, or else after 5 seconds
+without a jets button press.
+
 ## Service Mode
 It is possible to go into a special service mode to change various settings
 of this firmware. Please be sure you understand the ramifications of these
@@ -154,21 +175,32 @@ temperature is 100 or over, it can't show the tenths, and instead will end the
 value with a decimal point if it is .5 or over. So 100.2 will show as "100" and 
 100.6 will show as "100."
 
-#### PP8 Mode 
+#### PP8  Additional service flags.
+1 = Two Speed Board
+There are some boards that has 3 relays instead of two that are ment to work with a two speed pump.  
+This can enabled by using this flag.
+
+2 = European Board
+Indicates that the board is a European board that uses 220v.
+
+4 = Flash heat LED when setting
+This will flash the heat LED while the set temperature is displayed
+
+#### PP9 Mode 
 This does not need to be edited, as it can be changed with the 
 documented commands
     00 = Startup in normal mode
     01 = Startup in economy mode
     02 = Startup in overnight mode
 
-#### PP9 Wi-Fi mode
+#### PP10 Wi-Fi mode
 See Wi-Fi notes for details
 
-#### P10 Microcontroller temperature adjustment
-This can be used to adjust the temperature reported in the diagnostic info to 
-more accurately reflect the actual temperature.  Decrease this value if the 
-temperature is to high, increase it if it is too low.  The units are degrees 
-Celsius.
+#### PP11 Jets minutes
+The number of minutes to run the jets when the jet button is pressed.
+
+#### PP12 Lights minutes
+The minutes to run the lights with the lights button is pressed.
 
 ### Alternate Buttons
 
