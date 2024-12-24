@@ -90,8 +90,6 @@ degrees C), then the pump will shut off.  The default is 2.
 #### PP6 Operational flags
 To use this, add up the numbers and configure that value. If you want to 
 use Fahrenheit, disable P and disable IPS, you would enter 11 (1 + 2 + 8).  
-Note that generally the flags disable something, so you would set it to "1" to 
-disable the feature.
 
 1 = Use Fahrenheit:
 If this is not set it will display the temperature in
@@ -101,23 +99,23 @@ maximum, minimum and default temps to default values.
 
 2 = Disable P:
 Normally the controller will use the stock rules of displaying P 
-when the pump is off or just started.  If this flag is set, it will instead show
-the temperature of the probe in the HydroMate. With the pump not running it
-won't be as accurate as when the pump is running, but will still give an 
-indication of the tub temperature.
+when the pump is off or just started.  If this flag is set, it will instead always show
+the tub temperature.
 
 4 = Disable Ozone:
 Softub has an optional ozone generator that is run 
 periodically to limit the chemical use.  However, they tend to fail, and 
 generally are not replaced. If you are not using or do not wish to use the 
-ozone generator, set this flag.
+ozone generator, set this flag. If you don't have ozone, it doesn't matter what
+this is set to.
 
 8 = Disable IPS:
 The board monitors the voltage is sufficient to not 
 cause damage to the pump. It fires if the voltage drops to 96.5 volts on a 120v
 system (or probably around 177 v on a 220 circuit).  To disable this test, set 
 this flag. However, if there is insufficient power for the microcontroller, 
-it could still respond with an IPS warning.
+it could still respond with an IPS warning. It should be disabled on 2001 boards,
+as the lack the appropriate signal.
 
 16 = Disable P01:  If the tub has been heating for 4 hours without a 1 degree 
 temperature increase, the system will stop, and display a P01 error.  If you 
@@ -181,7 +179,7 @@ There are some boards that has 3 relays instead of two that are ment to work wit
 This can enabled by using this flag.
 
 2 = European Board
-Indicates that the board is a European board that uses 220v.
+Indicates that the board is powered by 220v.
 
 4 = Flash heat LED when setting
 This will flash the heat LED while the set temperature is displayed
@@ -197,7 +195,7 @@ documented commands
 See Wi-Fi notes for details
 
 #### PP11 Jets minutes
-The number of minutes to run the jets when the jet button is pressed.
+The minutes to run the jets when the jet button is pressed.
 
 #### PP12 Lights minutes
 The minutes to run the lights with the lights button is pressed.
