@@ -39,7 +39,8 @@ Instead of directly controlling the Softub pump, use it to turn on a contactor, 
 The contactor is a heavy duty relay designed to work with
 inductive loads.  You can use two of them in series to ensure that even if one is stuck it won't be stuck on.  (There's some other failure modes that could still
 cause runaway temperatures, however, so its still not as safe as the original board). Also, consider adding an alarm in the Sonoff app if It goes over a certain 
-temp.
+temp.  Or you can go all out and use two Sonoffs, each with a contactor, in series, with one set to turn off if the tub gets too hot, and the other that generally
+controls the tub. If it is properly programmed and wired, the safety should be about the same as the stock board.
 
 ### Ease of Use
 Because the Sonoff replaces the control panel, you have to use the app or some smart device instead of the buttons and display right on the Hydromate. 
@@ -63,7 +64,8 @@ The upgraded board can send the current temperature to the Sonoff, but it needs 
 This is done with a small adapter board that also simplifies attaching the smart device. 
 
 ### Shelly Uni Plus
-A similar solution to the Sonoff is the Shelly Uni Plus.  It is an easier installation because it can be installed in the controller board box, and doesn’t require a separate power source.  However, it is not as user friendly and also can’t integrate the current temperature directly with Alexa.  (It can display in its app though, or if you have Home Assistant, you can use that as a bridge with Alexa). 
+A similar solution to the Sonoff is the Shelly Uni Plus.  It is an easier installation because it can be installed in the controller board box, and doesn’t require a separate power source.  However, the
+app is not as user friendly and also can’t integrate the current temperature directly with Alexa.  (It can display in its app though, or if you have Home Assistant, you can use that as a bridge with Alexa). 
 Here’s a picture of the Shelly and adapter board plugged into an upgraded controller board.
 ![Picture of the board, a Shelly Uni, and Wi-Fi adapter](assets/wifi.jpg)
 
