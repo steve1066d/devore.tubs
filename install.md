@@ -1,7 +1,7 @@
 # Installation Instructions
 
 This updated microprocessor is meant to be installed on a Softub controller 
-board.  It is compatible with the C-2001, C-2003, C-2006, and C-2013 board 
+board.  It is compatible with the C-2001, C-2003, C-2006, C-2013, C-2023 board 
 revisions, both the European and American variants.  Its compatible with the 
 current control panels, as well as the original control panel released with the 
 2001 units.
