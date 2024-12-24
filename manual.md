@@ -6,7 +6,17 @@ Softub.  Softub and HydroMate are registered trademarks of Softub, Inc.
 
 This firmware can be used with all digital boards.
 
-### Features
+### Modes Available
+
+There are two modes.  The default is a mode similar to the stock 2013 version
+of the Softub, where it shows "P" when the pool is off, or just started, and
+just adds a few usability changes as I've documented.
+
+The is an Enhanced mode that should be more intuitive.  It does
+away with the the need to worry about "P" and "SP1", and better shows
+the actual tub temperature.
+
+#### Default Program
 
 The following are the differences and enhancements of this firmware over 
 the stock firmware provided by Softub.
@@ -24,7 +34,7 @@ is reached.
 
 If a tub is running and the jets button is pressed, the tub will stop for 20 
 minutes, even if it is heating (The stock program only will stop if it isn't 
-heating. After the 20 minutes, it will start again, if it is cool enough to call
+heating. After the 20 minutes, it will start again if it is cool enough to call
 for heat.  However, if the ozone generator is running, the jets button will 
 first stop the ozone, so if that is the case, and you want to stop the jets,
 press the jets button a second time.
@@ -36,40 +46,17 @@ The Economy and Overnight modes work fine even if the tub isn't up to
 temperature when they are set. When the Economy is exited (by holding down the
 down and light buttons), The "24" will blink twice to indicate it is turned off.
 Likewise holding down the down, light, and jets button will turn off the 
-overnight mode, blinking "12" twice.
-
-Once a temperature or special mode is selected, it will keep the setting even
-if the tub loses power. So, if the tub is set to 102, instead of returning back
-to 100, it will retain the temperature of 102. However, because the board 
-doesn't keep time when it is off, it may run at odd times if the overnight or 
-economy mode is selected when power is lost. If that happens, reselect the 
-special mode.
+overnight mode, blinking "12" twice. This mode will be retained on a power
+loss, but may run at odd times when the power is restored.  If that happens,
+reselect the special mode.
 
 Holding down the light button for 2 seconds will start the jets.  (Useful if
 your jets button is broken).
 
-Holding down the Light and Jets button for 4 seconds will display some diagnostic
-information. It shows these values:
-1. The version of the firmware (currently 1.05)
-2. The number of days the Softub has been running without a power interruption 
-   or reset.
-3. The temperature of the microcontroller, in Celsius.  Note:  this isn't 
-   calibrated, so it can be off by a large degree.
-4. The temperature probe in tenths of a degree.  This is the unadjusted value.
-   If the temperature is 100 or over, the value shown will be the temp minus 100.
-5. The voltage of the power supply.  If the voltage drops below 97v
-   the system will fail with the IPS error. If IPS is disabled, this is not 
-   shown. The maximum voltage that will be displayed is 117v, even if the 
-   voltage is higher.  For 220v systems, double the values given.
+### The Enhanced program
 
-### Wi-Fi
-
-Wi-Fi control of your Softub can be added with a simple add-on board that 
-integrates with either a Shelly Uni or Sonoff Elite.  The Wi-Fi integration works 
-along side the control panel, and keeps all the safety and functionality of the 
-control panel.  See the separate Wi-Fi directions for details.
-
-### The Improved program mode.
+To enter the Enhanced mode, hold the up and down buttons together for 4 seconds.
+The display will flash "P", indicating that the P display is disabled.
 
 In this mode, the temperature is displayed in a more natural way.  Instead of
 showing a P when the tub is off, it shows an estimate of the actual tub 
@@ -85,15 +72,23 @@ In this mode, if you press the temp up button the heat mode will turn on unless
 it is already up to temp. Also, if the down arrow is pressed, then the pump will 
 turn off heat mode unless it is not up to temp yet.
 
+Also, when adjusting the temperature, the Heat LED will flash, indicating it is
+showing the selected temperature instead of the actual temperature.
+
 Finally, instead of having to use the special mode to set the temperature to 
 105 or 106, you can set it directly.
  
-To enter the Improved mode, hold the up and down buttons together for 4 seconds.
-The display will flash "P", indicating that the P display is disabled.
-
 To return to the standard mode, repeat the operation by holding down the up and
 down buttons again, until "P" is displayed.
+
+### Wi-Fi
+
+Wi-Fi control of your Softub can be added with a simple add-on board that 
+integrates with either a Shelly Uni or Sonoff Elite.  The Wi-Fi integration works 
+along side the control panel, and keeps all the safety and functionality of the 
+control panel.  See the separate Wi-Fi directions for details.
 
 ### Errors:
 IPS will reset automatically if the voltage corrects itself (similar to the 
 stock board).  P01 can be reset by pressing any button.
+
