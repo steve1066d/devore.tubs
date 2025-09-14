@@ -26,4 +26,4 @@ Exclusions:
 ### Limitations of Liability:
 Our liability under this warranty is limited to the repair, replacement, or refund as outlined above. We are not responsible for any incidental or consequential damages.
 This warranty gives you specific legal rights, and you may also have other rights which vary from state to state.
-For warranty assistance, please contact devore.tubs@gmail.com.
+For warranty assistance, please contact steve@devoreelectronics.com.
